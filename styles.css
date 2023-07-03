@@ -7,9 +7,14 @@
     text-decoration: none;
     box-sizing: border-box;
  }
-.margin{
-   margin: 10px;   /*for testing*/
-}
+
+ .veruthe_ane_itu{   
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   margin: 15px;
+ }
+
 /*common styles*/
 img{
    border-radius: 12px;
@@ -136,7 +141,7 @@ img{
 /*card1 styles*/
  .card1_container{
     width: 432px;
-    min-height: 220px;
+   min-height: 220px; /*change this min-height*/
  }
  .card1_top-lvl{
     display: flex;
